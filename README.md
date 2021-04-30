@@ -1,5 +1,5 @@
 # BaseAPI
-**BaseAPI** Base API client backed by [axios](https://www.npmjs.com/package/axios).
+Base API client backed by [axios](https://www.npmjs.com/package/axios).
 
 [![Version][badge-vers]][npm]
 [![Bundle size][npm-size-badge]][npm-size-url]
@@ -14,7 +14,7 @@
 
 [![Dependencies][badge-deps]][npm]
 [![Vulnerabilities][badge-vuln]](https://snyk.io/)
-[![Build Status][badge-tests]][travis]
+[![Build Status][tests-badge]][tests-url]
 [![Coverage Status][badge-coverage]][url-coverage]
 
 [![Commit activity][commit-activity-badge]][github]
@@ -101,15 +101,16 @@ The message summary should be a one-sentence description of the change. The issu
 
 [npm]: https://www.npmjs.com/package/base-api-client
 [github]: https://github.com/pustovitDmytro/base-api-client
-[travis]: https://travis-ci.org/pustovitDmytro/base-api-client
 [coveralls]: https://coveralls.io/github/pustovitDmytro/base-api-client?branch=master
 [badge-deps]: https://img.shields.io/david/pustovitDmytro/base-api-client.svg
-[badge-tests]: https://travis-ci.com/pustovitDmytro/base-api-client.svg?branch=master
 [badge-vuln]: https://img.shields.io/snyk/vulnerabilities/npm/base-api-client.svg?style=popout
 [badge-vers]: https://img.shields.io/npm/v/base-api-client.svg
 [badge-lic]: https://img.shields.io/github/license/pustovitDmytro/base-api-client.svg
 [badge-coverage]: https://coveralls.io/repos/github/pustovitDmytro/base-api-client/badge.svg?branch=master
 [url-coverage]: https://coveralls.io/github/pustovitDmytro/base-api-client?branch=master
+
+[tests-badge]: https://img.shields.io/circleci/build/github/pustovitDmytro/base-api-client
+[tests-url]: https://app.circleci.com/pipelines/github/pustovitDmytro/base-api-client
 
 [codefactor-badge]: https://www.codefactor.io/repository/github/pustovitdmytro/base-api-client/badge
 [codefactor-url]: https://www.codefactor.io/repository/github/pustovitdmytro/base-api-client
