@@ -1,5 +1,5 @@
 # BaseAPI
-**BaseAPI** Base API client backed by axios.
+**BaseAPI** Base API client backed by [axios](https://www.npmjs.com/package/axios).
 
 [![Version][badge-vers]][npm]
 [![Bundle size][npm-size-badge]][npm-size-url]
@@ -35,7 +35,7 @@ To use library you need to have [node](https://nodejs.org) and [npm](https://www
 
 ## Installation
 
-To install the library run following command
+To install the library run the following command
 
 ```bash
   npm i --save baseapi
@@ -43,10 +43,10 @@ To install the library run following command
 
 ## Usage
 
-Example of [telegram]() client extended from BaseAPI:
+Example of [telegram](https://telegram.org/) client extended from BaseAPI:
 
 ```javascript
-import BaseAPi from 'BaseAPI';
+import BaseAPi from 'baseapi';
 
 export default class TelegramAPI extends BaseAPi {
     constructor(id, token) {
@@ -72,14 +72,14 @@ export default class TelegramAPI extends BaseAPi {
 ```
 
 Constructor arguments:
-  1. **url** - base url of the api. Can consist apiPrefix. Will be casted to nodeJS URL object.
+  1. **url** - base URL of the API. Can consist apiPrefix. Will be cast to nodeJS URL object.
   2. **options** - object with next attributes:
-      * **timeout** - timeout in [ms]() format. Will be casted to integer (in milliseconds). **Default**: 1m.
+      * **timeout** - timeout in [ms](https://www.npmjs.com/package/ms) format. Will be cast to integer (in milliseconds). **Default**: 1m.
       * **logger** - if applied, will add *debug* and *verbose* messages before and after each request. Should have next interface: ```logger.log(level, object)```.
 
 ## Contribute
 
-Make the changes to the code and tests and then commit to your branch. Be sure to follow the commit message conventions.
+Make the changes to the code and tests. Then commit to your branch. Be sure to follow the commit message conventions.
 
 Commit message summaries must follow this basic format:
 ```
@@ -128,7 +128,7 @@ The message summary should be a one-sentence description of the change. The issu
 [lgtm-alerts-badge]: https://img.shields.io/lgtm/alerts/g/pustovitDmytro/baseapi.svg?logo=lgtm&logoWidth=18
 [lgtm-alerts-url]: https://lgtm.com/projects/g/pustovitDmytro/baseapi/alerts/
 
-[codacy-badge]: https://app.codacy.com/project/badge/Grade/8667aa23afaa4725854f098c4b5e8890
+[codacy-badge]: https://app.codacy.com/project/badge/Grade/d8f448ed725149cb8ee80b4b608621ef
 [codacy-url]: https://www.codacy.com/gh/pustovitDmytro/baseapi/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pustovitDmytro/baseapi&amp;utm_campaign=Badge_Grade
 
 [sonarcloud-badge]: https://sonarcloud.io/api/project_badges/measure?project=pustovitDmytro_npm-boilerplate&metric=alert_status
