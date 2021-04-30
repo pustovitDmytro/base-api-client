@@ -1,5 +1,6 @@
 import createAxiosError from 'axios/lib/core/createError';
 import express from 'express';
+import { pause } from 'myrmidon';
 import { _load } from './entry';
 
 const API = _load('API').default;
@@ -45,12 +46,21 @@ export function unMockAPI() {
     });
 }
 
+async function echo(req, res) {
+    const input = {
+        method : req.method,
+        path   : req.path,
+        query  : req.query
+    };
+
+    await pause(10); // to test timeouts
+    res.send(input);
+}
+
 export async function startMockApp() {
     const app = express();
 
-    app.use((req, res) => res.send({
-        method : req.method
-    }));
+    app.use('/echo', echo);
 
     return new Promise(res => {
         const server = app.listen(0, () => {

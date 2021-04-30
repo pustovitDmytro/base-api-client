@@ -4,6 +4,8 @@ import { v4 as uuid } from 'uuid';
 import { resolveUrl } from './utils';
 import API_ERROR from './Error';
 
+const defaultMock = () => ({ data: 1 });
+
 export default class API {
     constructor(url, { timeout = '1m', logger } = {}) {
         this.url = new URL(url);
@@ -35,8 +37,12 @@ export default class API {
         };
     }
 
+    setMock(fn = defaultMock) {
+        this._mock = fn;
+    }
+
     async _axios(axiosOptions) {
-        if (this.isMock) return { data: 1 };
+        if (this._mock) return this._mock(axiosOptions);
 
         return axios(axiosOptions);
     }

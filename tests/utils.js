@@ -5,6 +5,7 @@ export async function checkError(promise, type, message) {
         await promise;
         assert.fail();
     } catch (error) {
+        if (error.name === 'AssertionError') throw error;
         assert.equal(error.name, type, error.toString());
         assert.match(error.message, new RegExp(message), error.toString());
     }
