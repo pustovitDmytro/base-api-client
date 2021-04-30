@@ -1,7 +1,7 @@
 {
-  "name": "npm-boilerplate",
+  "name": "baseapi",
   "version": "0.0.1",
-  "description": "boilerplate for creating npm packages",
+  "description": "Base API client backed by axios",
   "main": "./lib",
   "scripts": {
     "prepare": "babel src --out-dir ./lib && husky install",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pustovitDmytro/npm-boilerplate.git"
+    "url": "https://github.com/pustovitDmytro/baseapi.git"
   },
   "author": "Dmytro Pustovit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pustovitDmytro/npm-boilerplate/issues"
+    "url": "https://github.com/pustovitDmytro/baseapi/issues"
   },
-  "homepage": "https://github.com/pustovitDmytro/npm-boilerplate#readme",
+  "homepage": "https://github.com/pustovitDmytro/baseapi#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
