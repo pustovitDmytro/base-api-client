@@ -68,6 +68,7 @@ jobs:
       - save_cache: *cache-modules
   test-coverage:
     <<: *defaults
+    context: coveralls
     steps:
       - checkout
       - restore_cache:
@@ -107,6 +108,7 @@ jobs:
           path: tmp          
   deploy:
     <<: *defaults
+    context: npm-packages
     steps:
         - checkout
         - restore_cache:
