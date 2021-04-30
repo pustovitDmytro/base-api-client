@@ -1,5 +1,5 @@
 {
-  "name": "baseapi",
+  "name": "base-api-client",
   "version": "0.0.1",
   "description": "Base API client backed by axios",
   "main": "./lib",
@@ -19,14 +19,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pustovitDmytro/baseapi.git"
+    "url": "https://github.com/pustovitDmytro/base-api-client.git"
   },
   "author": "Dmytro Pustovit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pustovitDmytro/baseapi/issues"
+    "url": "https://github.com/pustovitDmytro/base-api-client/issues"
   },
-  "homepage": "https://github.com/pustovitDmytro/baseapi#readme",
+  "homepage": "https://github.com/pustovitDmytro/base-api-client#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
