@@ -130,7 +130,6 @@ workflows:
           requires:
             - install
       - test-coverage:
-          context: coveralls
           requires:
             - install
       - deploy:
