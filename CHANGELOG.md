@@ -1,3 +1,19 @@
+# [1.2.0](https://github.com/pustovitDmytro/base-api-client/compare/v1.1.0...v1.2.0) (2021-04-30)
+
+
+### Chore
+
+* fixes Breaking increment in semantic-release ([d1c4d53](https://github.com/pustovitDmytro/base-api-client/commit/d1c4d5314eb9921111d4e033ae59e1495e842fa3))
+
+### Docs
+
+* change travis badge to circle-ci ([ebabb61](https://github.com/pustovitDmytro/base-api-client/commit/ebabb61f19ac4413561d3ffd849f9392f1c60bb5))
+* fixes spellcheck ([bc06d85](https://github.com/pustovitDmytro/base-api-client/commit/bc06d85a523a2977307c588ee6abe6152c66ef19))
+
+### New
+
+* adds context to circle-ci ([a3a1f33](https://github.com/pustovitDmytro/base-api-client/commit/a3a1f33a03d1c32b2d467cdce1d7ab3fb0b8ce8b))
+
 # [1.1.0](https://github.com/pustovitDmytro/base-api-client/compare/v1.0.0...v1.1.0) (2021-04-30)
 
 
