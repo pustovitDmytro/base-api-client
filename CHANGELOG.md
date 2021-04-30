@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/pustovitDmytro/base-api-client/compare/v1.0.0...v1.1.0) (2021-04-30)
+
+
+### Breaking
+
+* change package name ([0f99f41](https://github.com/pustovitDmytro/base-api-client/commit/0f99f4187b1fb6416c1572fe5839e262aa503198))
+
 # 1.0.0 (2021-04-30)
 
 
