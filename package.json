@@ -1,6 +1,6 @@
 {
   "name": "baseapi",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Base API client backed by axios",
   "main": "./lib",
   "scripts": {
