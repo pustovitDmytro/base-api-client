@@ -1,3 +1,34 @@
+## [1.2.1](https://github.com/pustovitDmytro/base-api-client/compare/v1.2.0...v1.2.1) (2021-05-04)
+
+
+### chore
+
+* lock file maintenance ([153fe39](https://github.com/pustovitDmytro/base-api-client/commit/153fe396eefa2d521fb92eefbea734cebeecac17))
+
+### Chore
+
+* adds CIRCLE_SKIP_DEPLOY variable ([231549d](https://github.com/pustovitDmytro/base-api-client/commit/231549dda35992edbe9732a2848ce6485994214c))
+* adds pr context ([ce163d9](https://github.com/pustovitDmytro/base-api-client/commit/ce163d98af7e779af2242418b9d4fe18deeffb36))
+* adds trusted bots to danger ([892f4a1](https://github.com/pustovitDmytro/base-api-client/commit/892f4a12a0084464da137d25b1a027e4afb808bd))
+* deploy ci as single command ([96c2800](https://github.com/pustovitDmytro/base-api-client/commit/96c280048128a9879c48d11d3b49b1f3ef60ca77))
+* exit code 0 when skip ([f6ee0bf](https://github.com/pustovitDmytro/base-api-client/commit/f6ee0bf8f6965f884165f1ebcf83c9ca9a19bb28))
+* fixes ci ([0576a01](https://github.com/pustovitDmytro/base-api-client/commit/0576a013f537d21591b13214c3cf2c1cf33bfa79))
+* inverse logical condition ([65dd0ad](https://github.com/pustovitDmytro/base-api-client/commit/65dd0ad91e442702ae98993f21163d26270cd4ec))
+* telegram notifications on release ([3a8036a](https://github.com/pustovitDmytro/base-api-client/commit/3a8036a66d1ad82b978bbb356e0ac0cd1b1d1e46))
+* Update dependency @rollup/plugin-node-resolve to v13 ([e884252](https://github.com/pustovitDmytro/base-api-client/commit/e88425227d56154be3115713b215b2e307493ee8))
+* Update dependency fs-extra to v10 ([f1b8460](https://github.com/pustovitDmytro/base-api-client/commit/f1b84603baf7771567aaa35b6b060eb7077ea5ce))
+* Update dependency fs-extra to v10 ([a0adecc](https://github.com/pustovitDmytro/base-api-client/commit/a0adecc6b0b58e877bb64aff29e9a42bdc8a9d71))
+* Update dependency fs-extra to v9 ([e0ccfb4](https://github.com/pustovitDmytro/base-api-client/commit/e0ccfb43d7b700310a89d5a9e0408183e100e4d9))
+* Update issue templates ([8fdb1af](https://github.com/pustovitDmytro/base-api-client/commit/8fdb1af8db2dbb2cd8912bef867d62b95781fc56))
+* Update pr template ([1d4eb34](https://github.com/pustovitDmytro/base-api-client/commit/1d4eb34da6085757d1707db0c440c6e245c3e2e3))
+* update semantic to use commit convention ([7e079b2](https://github.com/pustovitDmytro/base-api-client/commit/7e079b2eaeb424f55b591b124b7f998a092c0988))
+* use danger for internall pr ([d838ede](https://github.com/pustovitDmytro/base-api-client/commit/d838edef9a425510615b3405d49b8056176f23d8))
+* use incredible eslint config ([b03d74a](https://github.com/pustovitDmytro/base-api-client/commit/b03d74a4e8e9ee1dcecba72d2137d70dafbf8b73))
+
+### Upgrade
+
+* Update dependency myrmidon to v1.5.0 ([cfa40c7](https://github.com/pustovitDmytro/base-api-client/commit/cfa40c7176e3289fa91bba509ac829e17d03158b))
+
 # [1.2.0](https://github.com/pustovitDmytro/base-api-client/compare/v1.1.0...v1.2.0) (2021-04-30)
 
 
