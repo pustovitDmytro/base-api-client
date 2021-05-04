@@ -65,6 +65,7 @@ jobs:
       - checkout
       - run: *install
       - run: *security
+      - run: *danger-pr
       - save_cache: *cache-modules
   test-coverage:
     <<: *defaults
@@ -104,7 +105,7 @@ jobs:
           <<: *cache-defaults
       - run: *test-package
       - store_artifacts:
-          path: tmp          
+          path: tmp
   deploy:
     <<: *defaults
     steps:
@@ -113,13 +114,14 @@ jobs:
             <<: *cache-defaults
         - run:
             name: Create Release
-            command: npm run semantic-release
+            command: "[ -z ${CIRCLE_SKIP_DEPLOY+x} ] && npm run semantic-release || echo 'job skipped'"
 
 workflows:
   version: 2
   main:
     jobs:
-      - install
+      - install:
+          context: pr
       - test-package:
           requires:
             - install

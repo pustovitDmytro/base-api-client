@@ -18,7 +18,6 @@ Base API client backed by [axios](https://www.npmjs.com/package/axios).
 [![Coverage Status][badge-coverage]][url-coverage]
 
 [![Commit activity][commit-activity-badge]][github]
-[![Fossa][fossa-badge]][fossa-url]
 [![License][badge-lic]][github]
 
 ## Table of Contents
@@ -114,9 +113,6 @@ The message summary should be a one-sentence description of the change. The issu
 
 [codefactor-badge]: https://www.codefactor.io/repository/github/pustovitdmytro/base-api-client/badge
 [codefactor-url]: https://www.codefactor.io/repository/github/pustovitdmytro/base-api-client
-
-[fossa-badge]: https://app.fossa.com/api/projects/git%2Bgithub.com%2FpustovitDmytro%2Fbase-api-client.svg?type=shield
-[fossa-url]: https://app.fossa.com/projects/git%2Bgithub.com%2FpustovitDmytro%2Fbase-api-client?ref=badge_shield
 
 [commit-activity-badge]: https://img.shields.io/github/commit-activity/m/pustovitDmytro/base-api-client
 

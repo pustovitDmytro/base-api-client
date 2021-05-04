@@ -5,12 +5,14 @@ import { mockAPI, unMockAPI, startMockApp, stopMockApp } from  './mock';
 
 
 export default class Test {
-    createAPI(url = 'http://mock/', opts) {
+    createAPI(url = 'http://mock/', opts = undefined) {
         return new API(url, opts);
     }
+
     async setTmpFolder() {
         await fse.ensureDir(tmpFolder);
     }
+
     async cleanTmpFolder() {
         await fse.remove(tmpFolder);
     }

@@ -1,3 +1,4 @@
+/* eslint-disable security/detect-object-injection */
 import createAxiosError from 'axios/lib/core/createError';
 import express from 'express';
 import { pause } from 'myrmidon';
