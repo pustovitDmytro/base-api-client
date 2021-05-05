@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/pustovitDmytro/base-api-client/compare/v1.2.1...v1.2.2) (2021-05-05)
+
+
+### Upgrade
+
+* Update dependency myrmidon to v1.5.1 ([9f874a5](https://github.com/pustovitDmytro/base-api-client/commit/9f874a515abeec67598282c86140acadf1e52b37))
+
 ## [1.2.1](https://github.com/pustovitDmytro/base-api-client/compare/v1.2.0...v1.2.1) (2021-05-04)
 
 
