@@ -1,3 +1,21 @@
+# [1.3.0](https://github.com/pustovitDmytro/base-api-client/compare/v1.2.2...v1.3.0) (2021-05-08)
+
+
+### Chore
+
+* (tests) moves load to factory ([4acb941](https://github.com/pustovitDmytro/base-api-client/commit/4acb94181777f22e8fda16ea43b6a1cad3986629))
+* fixes spellcheck in bugreport ([7d754b6](https://github.com/pustovitDmytro/base-api-client/commit/7d754b605ed7fed3ea1a9c7d0d951a09806a1c37))
+* set myself as default assignee in pr ([0dcd0ce](https://github.com/pustovitDmytro/base-api-client/commit/0dcd0ce95b50a1e8a2fef91307f7fd8964314f68))
+* tests/entry.js module resolving ([c840f8b](https://github.com/pustovitDmytro/base-api-client/commit/c840f8b479234b7944b2d2708344ae24df231464))
+* Update dependency @rollup/plugin-commonjs to v19 ([bf29948](https://github.com/pustovitDmytro/base-api-client/commit/bf2994851b033e64744e381f5f566ca9eed0aef5))
+* Update dependency @rollup/plugin-node-resolve to v13 ([265fd82](https://github.com/pustovitDmytro/base-api-client/commit/265fd82a61b0f2ee81bcb445f93e34f05bb4540b))
+* update eslint ([4aac03c](https://github.com/pustovitDmytro/base-api-client/commit/4aac03c8db5f28d1d41838fc70e614df93e034d6))
+* update lock file ([4ffb878](https://github.com/pustovitDmytro/base-api-client/commit/4ffb878e544a8cbe68fa7b3c5908b8ccdf9e394f))
+
+### New
+
+* log api in instance for redefine from top level ([e177138](https://github.com/pustovitDmytro/base-api-client/commit/e177138ec1e95503449dd43099ff1f45c19aa213))
+
 ## [1.2.2](https://github.com/pustovitDmytro/base-api-client/compare/v1.2.1...v1.2.2) (2021-05-05)
 
 
