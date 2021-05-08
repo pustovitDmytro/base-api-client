@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/pustovitDmytro/base-api-client/compare/v1.3.0...v1.4.0) (2021-05-08)
+
+
+### New
+
+* pass axiosOptions to traceId ([b3f4d87](https://github.com/pustovitDmytro/base-api-client/commit/b3f4d87cb9deb53384514ed64eac4819e72f4af5))
+
 # [1.3.0](https://github.com/pustovitDmytro/base-api-client/compare/v1.2.2...v1.3.0) (2021-05-08)
 
 
