@@ -2,9 +2,9 @@
 import createAxiosError from 'axios/lib/core/createError';
 import express from 'express';
 import { pause } from 'myrmidon';
-import { _load } from './entry';
+import { load } from './Test';
 
-const API = _load('API').default;
+const API = load('API').default;
 
 function axiosResponse(data) {
     return { data };

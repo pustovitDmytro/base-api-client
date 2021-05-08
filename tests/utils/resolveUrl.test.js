@@ -1,7 +1,7 @@
 import { assert } from 'chai';
-import { _load } from '../entry';
+import { load } from '../Test';
 
-const { resolveUrl } = _load('utils');
+const { resolveUrl } = load('utils');
 
 suite('resolveUrl');
 
