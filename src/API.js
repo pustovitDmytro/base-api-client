@@ -8,13 +8,17 @@ const defaultMock = () => ({ data: 1 });
 
 export default class API {
     constructor(url, { timeout = '1m', logger } = {}) {
-        this.url = new URL(url);
+        this.url = url && new URL(url);
         this.timeout = ms(timeout);
         this.initLogger(logger);
     }
 
     initLogger(logger) {
-        this.logger = logger;
+        this._logger = logger;
+    }
+
+    log(level, data) {
+        if (this._logger) this._logger.log(level, data);
     }
 
     onError(error) {
@@ -55,7 +59,7 @@ export default class API {
         const { headers, data, params, ...options } = reqOptions;
         const traceId = this.getTraceId(settings);
 
-        this.logger?.log('debug', { method, url, ...reqOptions, api: this.constructor.name, traceId, type: 'requestSent' });
+        this.log('debug', { method, url, ...reqOptions, api: this.constructor.name, traceId, type: 'requestSent' });
         const axiosOptions = {
             timeout : this.timeout,
             method,
@@ -70,13 +74,13 @@ export default class API {
         try {
             const response = await this._axios(axiosOptions);
 
-            this.logger?.log('verbose', { traceId, type: 'responseReceived', data: response.data });
+            this.log('verbose', { traceId, type: 'responseReceived', data: response.data });
 
             const handleResponse = settings.onResponse || this.onResponse;
 
             return handleResponse(response);
         } catch (error) {
-            this.logger?.log('verbose', { traceId, error: error.toString(), data: error.response?.data, stack: error.stack, type: 'errorOccured' });
+            this.log('verbose', { traceId, error: error.toString(), data: error.response?.data, stack: error.stack, type: 'errorOccured' });
             const onError = settings.onError || this.onError;
 
             onError(error);
