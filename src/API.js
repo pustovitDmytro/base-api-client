@@ -51,15 +51,13 @@ export default class API {
         return axios(axiosOptions);
     }
 
-    getTraceId({ traceId }) {
+    getTraceId(axiosOptions, { traceId }) {
         return traceId || uuid();
     }
 
     async request(method, url, reqOptions = {}, settings = {}) {
         const { headers, data, params, ...options } = reqOptions;
-        const traceId = this.getTraceId(settings);
 
-        this.log('debug', { method, url, ...reqOptions, api: this.constructor.name, traceId, type: 'requestSent' });
         const axiosOptions = {
             timeout : this.timeout,
             method,
@@ -70,6 +68,10 @@ export default class API {
             auth    : this.auth,
             ...options
         };
+
+        const traceId = this.getTraceId(axiosOptions, settings);
+
+        this.log('debug', { method, url, ...reqOptions, api: this.constructor.name, traceId, type: 'requestSent' });
 
         try {
             const response = await this._axios(axiosOptions);
