@@ -79,6 +79,6 @@
   "dependencies": {
     "axios": "0.21.1",
     "ms": "2.1.3",
-    "myrmidon": "1.5.1"
+    "myrmidon": "1.5.2"
   }
 }
