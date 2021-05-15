@@ -1,3 +1,20 @@
+## [1.4.2](https://github.com/pustovitDmytro/base-api-client/compare/v1.4.1...v1.4.2) (2021-05-15)
+
+
+### Chore
+
+* additional quotes in glob pattern ([f6d15cf](https://github.com/pustovitDmytro/base-api-client/commit/f6d15cf2b6fc966f1b3a8b175b6bcf0144a80def))
+* adds appveyor ([d560b4e](https://github.com/pustovitDmytro/base-api-client/commit/d560b4ee54ffb8d4d267fd2cb132ba8bb6dfe5b9))
+* fixes prevent require handler ([7923f0e](https://github.com/pustovitDmytro/base-api-client/commit/7923f0ed71ba537d7c50064a99e2e9af318fcb60))
+* not fail package if no tmp exists ([5693813](https://github.com/pustovitDmytro/base-api-client/commit/569381326c9b688c492aa29c825a61901419d1de))
+* package-tester improvements ([d5d868b](https://github.com/pustovitDmytro/base-api-client/commit/d5d868bc7f529d94f79041be5b923b5967d7a704))
+* prevent package:test from using devdependencies ([dc896f3](https://github.com/pustovitDmytro/base-api-client/commit/dc896f39fd79e6cb73c8cc458213c00f5f5a703d))
+* update default renovate rules ([7e83bc4](https://github.com/pustovitDmytro/base-api-client/commit/7e83bc4fb9b99bb74811cd55db0b94c81e18dcde))
+
+### Fix
+
+* move uuid to dependencies ([fa7eca0](https://github.com/pustovitDmytro/base-api-client/commit/fa7eca0b320d096ba580dada87c132dc981c6718))
+
 ## [1.4.1](https://github.com/pustovitDmytro/base-api-client/compare/v1.4.0...v1.4.1) (2021-05-10)
 
 
