@@ -1,8 +1,10 @@
-import path from 'path';
 import fse from 'fs-extra';
 import API from './entry';
-import { tmpFolder, entry } from './constants';
+import { tmpFolder } from './constants';
 import { mockAPI, unMockAPI, startMockApp, stopMockApp } from  './mock';
+
+export * from './utils';
+export * from './constants';
 
 export default class Test {
     createAPI(url = 'http://mock/', opts = undefined) {
@@ -40,18 +42,3 @@ export default class Test {
     }
 }
 
-function load(relPath) {
-    // eslint-disable-next-line security/detect-non-literal-require
-    return require(path.join(entry, relPath));
-}
-
-function resolve(relPath) {
-    return require.resolve(path.join(entry, relPath));
-}
-
-export {
-    tmpFolder,
-    entry,
-    load,
-    resolve
-};

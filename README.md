@@ -27,10 +27,12 @@ Base API client backed by [axios](https://www.npmjs.com/package/axios).
   - [Contribute](#contribute)
 
 ## Requirements
+[![Platform Status][appveyor-badge]][appveyor-url]
+
 To use library you need to have [node](https://nodejs.org) and [npm](https://www.npmjs.com) installed in your machine:
 
-* node `6.0+`
-* npm `3.0+`
+* node `>=10`
+* npm `>=6`
 
 ## Installation
 
@@ -134,3 +136,8 @@ The message summary should be a one-sentence description of the change. The issu
 [npm-downloads-badge]: https://img.shields.io/npm/dw/base-api-client
 [npm-size-badge]: https://img.shields.io/bundlephobia/min/base-api-client
 [npm-size-url]: https://bundlephobia.com/result?p=base-api-client
+
+[appveyor-badge]: https://ci.appveyor.com/api/projects/status/dy3ym8db8yfn7pj7/branch/master?svg=true
+[appveyor-url]: https://ci.appveyor.com/project/pustovitDmytro/base-api-client/branch/master
+
+

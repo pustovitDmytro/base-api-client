@@ -2,7 +2,7 @@
 import createAxiosError from 'axios/lib/core/createError';
 import express from 'express';
 import { pause } from 'myrmidon';
-import { load } from './Test';
+import { load } from './utils';
 
 const API = load('API').default;
 
