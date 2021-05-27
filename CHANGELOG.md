@@ -1,3 +1,29 @@
+## [1.4.3](https://github.com/pustovitDmytro/base-api-client/compare/v1.4.2...v1.4.3) (2021-05-27)
+
+
+### Chore
+
+* 'Chore' semanticCommitType for updating devDependencies ([4bf79e1](https://github.com/pustovitDmytro/base-api-client/commit/4bf79e1ac2907ca07a355f63458b8bf3b41a3afc))
+* (tests) clearCache on module load is optional ([96c2ae5](https://github.com/pustovitDmytro/base-api-client/commit/96c2ae5237b7eed47278471cbf3b04b2b99385d4))
+* contributor login in danger message ([76349e6](https://github.com/pustovitDmytro/base-api-client/commit/76349e6ee87b0e59f8fff9402eb10fa66d23a188))
+* dont store package-tests artifacts ([50ebff1](https://github.com/pustovitDmytro/base-api-client/commit/50ebff16449ff34f474587136dca4e4740ed4bf7))
+* export default in tests ([9d210e6](https://github.com/pustovitDmytro/base-api-client/commit/9d210e6f511a42a9c42f415ba6a64834346c11b0))
+* fixes tests ([e8a96fc](https://github.com/pustovitDmytro/base-api-client/commit/e8a96fc18a745953ea291232a3fa6a0a5ab466dd))
+* integrate APPVEYOR_BUILD_ID to build tests ([16cdd48](https://github.com/pustovitDmytro/base-api-client/commit/16cdd48ddb7da5000c6df88ceb1f2513225a4a5b))
+* update code to match new styleguide ([0105cba](https://github.com/pustovitDmytro/base-api-client/commit/0105cbae7b4226e5fc1480ab38b26ea912d4b391))
+* update eslint ([6b174b1](https://github.com/pustovitDmytro/base-api-client/commit/6b174b184a792fc282ef3228079f23fa81f2bcb5))
+* update eslint-config-incredible ([2f39edb](https://github.com/pustovitDmytro/base-api-client/commit/2f39edb6b44795918e8650be3e727b8e7abb61b7))
+* update eslint-config-incredible ([58c31d2](https://github.com/pustovitDmytro/base-api-client/commit/58c31d295fa2df7cb3dceda8db6a417144a4b1c3))
+
+### Docs
+
+* adds node releases roadmap ([ba16142](https://github.com/pustovitDmytro/base-api-client/commit/ba16142230db2895ecd9855d5746648075f0b8e8))
+* move Contributing Guidelines to separate file. ([081e4ed](https://github.com/pustovitDmytro/base-api-client/commit/081e4ed03eebef0eda5305a1486a32cf91cdc62b))
+
+### Fix
+
+* send PATCH on patch requests ([abc4a78](https://github.com/pustovitDmytro/base-api-client/commit/abc4a7847fa31282abe79e8de5b3cb21023e68f0))
+
 ## [1.4.2](https://github.com/pustovitDmytro/base-api-client/compare/v1.4.1...v1.4.2) (2021-05-15)
 
 
