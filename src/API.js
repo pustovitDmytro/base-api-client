@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/filename-case */
 import axios from 'axios';
 import ms from 'ms';
 import { v4 as uuid } from 'uuid';
@@ -104,7 +105,7 @@ export default class API {
     }
 
     patch(url, data, options = {}) {
-        return this.request('PUT', url, {
+        return this.request('PATCH', url, {
             data,
             ...options
         });
