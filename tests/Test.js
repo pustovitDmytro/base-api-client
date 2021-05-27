@@ -7,7 +7,7 @@ export * from './utils';
 export * from './constants';
 
 export default class Test {
-    createAPI(url = 'http://mock/', opts = undefined) {
+    createAPI(url = 'http://mock/', opts = {}) {
         return new API(url, opts);
     }
 

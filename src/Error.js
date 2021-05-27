@@ -16,6 +16,11 @@ export class BaseError extends Error {
 }
 
 export default class API_ERROR extends BaseError {
+    constructor() {
+        super();
+        this.name = 'API_ERROR';
+    }
+
     get message() {
         const messages = [ this.payload.toString() ];
         const inner  = this.payload.response?.data;
