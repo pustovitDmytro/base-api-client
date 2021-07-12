@@ -12,6 +12,7 @@ export default class API {
         this.url = url && new URL(url);
         this.timeout = ms(timeout);
         this.initLogger(logger);
+        this._instance = axios.create({});
     }
 
     initLogger(logger) {
@@ -49,7 +50,7 @@ export default class API {
     async _axios(axiosOptions) {
         if (this._mock) return this._mock(axiosOptions);
 
-        return axios(axiosOptions);
+        return this._instance(axiosOptions);
     }
 
     getTraceId(axiosOptions, { traceId }) {
