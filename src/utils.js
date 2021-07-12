@@ -1,5 +1,7 @@
 import { URL } from 'url';
 import { last } from 'myrmidon';
+import createAxiosError from 'axios/lib/core/createError';
+
 
 export function resolveUrl(base, relativeUrl) {
     const baseUrl = base ? new URL(base) : undefined;
@@ -18,4 +20,18 @@ export function resolveUrl(base, relativeUrl) {
         : relativeUrl;
 
     return new URL(relPath,  baseUrl);
+}
+
+export function _axiosError(
+    opts,
+    { message, code },
+    data
+) {
+    return createAxiosError(
+        message,
+        opts,
+        code,
+        {},
+        { data }
+    );
 }

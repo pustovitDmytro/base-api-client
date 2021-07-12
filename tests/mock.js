@@ -1,5 +1,4 @@
 /* eslint-disable security/detect-object-injection */
-import createAxiosError from 'axios/lib/core/createError';
 import express from 'express';
 import { pause } from 'myrmidon';
 import { load } from './utils';
@@ -10,9 +9,7 @@ function axiosResponse(data) {
     return { data };
 }
 
-function axiosError(opts, { message, code }, data) {
-    return createAxiosError(message, opts, code, {}, { data });
-}
+const axiosError = load('utils')._axiosError;
 
 class MOCK_API extends API {
     async _axios(opts) {
