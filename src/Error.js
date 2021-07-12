@@ -2,6 +2,8 @@ export class BaseError extends Error {
     #payload;
 
     constructor(payload) {
+        // eslint-disable-next-line no-constructor-return
+        if (payload instanceof BaseError) return payload;
         super();
 
         this.name = this.constructor.name;
