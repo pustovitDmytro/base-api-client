@@ -1,3 +1,33 @@
+# [1.5.0](https://github.com/pustovitDmytro/base-api-client/compare/v1.4.5...v1.5.0) (2021-07-12)
+
+
+### Chore
+
+* adds sonarcloud config ([c92973d](https://github.com/pustovitDmytro/base-api-client/commit/c92973d998ecee059594fbcdd35b9be0c08ffd0b))
+* Lock file maintenance ([cdf4f11](https://github.com/pustovitDmytro/base-api-client/commit/cdf4f112eebab895c624210cc672ab00ba2fa443))
+* regenerate lock file ([02a41ed](https://github.com/pustovitDmytro/base-api-client/commit/02a41edecce8b2ee9df7f2cd39a2221316ec4e94))
+* removes unused devDependencies ([ddb100a](https://github.com/pustovitDmytro/base-api-client/commit/ddb100aa634ab2e1d2695de73d9aeb4a7795ccce))
+* Update dependency eslint-plugin-regexp to ^0.12.0 ([51ff304](https://github.com/pustovitDmytro/base-api-client/commit/51ff3049b892e9ee5655761e53454e4c601fba27))
+* Update dependency eslint-plugin-regexp to ^0.12.0 ([46bc24b](https://github.com/pustovitDmytro/base-api-client/commit/46bc24b4659ca5e9173175493c32273ad14700fc))
+* Update dependency eslint-plugin-regexp to ^0.13.0 ([4dd38ea](https://github.com/pustovitDmytro/base-api-client/commit/4dd38eae48be7492d4c1f397b75239b8f1653dec))
+* Update dependency eslint-plugin-regexp to ^0.13.0 (#36) ([3a8d3ec](https://github.com/pustovitDmytro/base-api-client/commit/3a8d3ecefa7c49575b4c6de6832690117d852dd7)), closes [#36](https://github.com/pustovitDmytro/base-api-client/issues/36)
+* Update dependency eslint-plugin-sonarjs to ^0.9.0 ([81d9681](https://github.com/pustovitDmytro/base-api-client/commit/81d9681ef601c70ee83a7ca26b199d647fc4ca0e))
+* Update dependency eslint-plugin-sonarjs to ^0.9.0 ([ca3e847](https://github.com/pustovitDmytro/base-api-client/commit/ca3e847f20c308367a5080659141867f5f5194d6))
+* Update dependency eslint-plugin-unicorn to v34 ([c53ae90](https://github.com/pustovitDmytro/base-api-client/commit/c53ae90d30d40be791f41d157eaf5072be3fdfc9))
+* Update dependency eslint-plugin-unicorn to v34 (#34) ([86efbac](https://github.com/pustovitDmytro/base-api-client/commit/86efbac96c6fbd1055c7e83fc3a42a861836b943)), closes [#34](https://github.com/pustovitDmytro/base-api-client/issues/34)
+* Update dependency husky to v7 ([3578711](https://github.com/pustovitDmytro/base-api-client/commit/35787117161955387aad52949d506c0fbaf42edf))
+* Update dependency husky to v7 ([9d45edf](https://github.com/pustovitDmytro/base-api-client/commit/9d45edf3741ebba036edf26673b37b37dc32d856))
+
+### Docs
+
+* update snyk badge ([a7fbb1d](https://github.com/pustovitDmytro/base-api-client/commit/a7fbb1d0e408bec8b8a8f37d1ffef3921d1dc106))
+
+### New
+
+* Error idempotency #18 ([4bbdb1a](https://github.com/pustovitDmytro/base-api-client/commit/4bbdb1a588f59f7b8e667b598f13bd41fc8a51ea)), closes [#18](https://github.com/pustovitDmytro/base-api-client/issues/18)
+* export axiosError for futher testing, closes #18 ([510e7e8](https://github.com/pustovitDmytro/base-api-client/commit/510e7e8019157e6109eeb48c5e384f55fef2cc42)), closes [#18](https://github.com/pustovitDmytro/base-api-client/issues/18)
+* use separate axios instance, closes #15 ([2cb90d3](https://github.com/pustovitDmytro/base-api-client/commit/2cb90d3987fa4c5c7b86d8a6186e6acce62628d2)), closes [#15](https://github.com/pustovitDmytro/base-api-client/issues/15)
+
 ## [1.4.5](https://github.com/pustovitDmytro/base-api-client/compare/v1.4.4...v1.4.5) (2021-06-13)
 
 
