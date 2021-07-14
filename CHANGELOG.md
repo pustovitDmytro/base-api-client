@@ -1,3 +1,14 @@
+## [1.5.1](https://github.com/pustovitDmytro/base-api-client/compare/v1.5.0...v1.5.1) (2021-07-14)
+
+
+### Chore
+
+* increase coverage ([0cf2304](https://github.com/pustovitDmytro/base-api-client/commit/0cf2304ccfb467bd7a2db88bf41ad08e453a5904))
+
+### Upgrade
+
+* Update dependency myrmidon to v1.5.8 ([d0cb98b](https://github.com/pustovitDmytro/base-api-client/commit/d0cb98be9d2b5901cfda18d248b4decab03a1d1c))
+
 # [1.5.0](https://github.com/pustovitDmytro/base-api-client/compare/v1.4.5...v1.5.0) (2021-07-12)
 
 
