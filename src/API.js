@@ -4,6 +4,7 @@ import ms from 'ms';
 import { v4 as uuid } from 'uuid';
 import { resolveUrl } from './utils';
 import API_ERROR from './Error';
+import {cleanUndefined} from 'myrmidon';
 
 const defaultMock = () => ({ data: 1 });
 
@@ -60,14 +61,18 @@ export default class API {
     async request(method, url, reqOptions = {}, settings = {}) {
         const { headers, data, params, ...options } = reqOptions;
 
-        const axiosOptions = {
+        const optional = {
             timeout : this.timeout,
+            data    : data,
+            params  : params,
+            auth    : this.auth
+        }
+
+        const axiosOptions = {
             method,
             url     : this._getUrl(url).href,
             headers : headers || this.getHeaders(),
-            data    : data || {},
-            params  : params || {},
-            auth    : this.auth,
+            ...cleanUndefined(optional),
             ...options
         };
 
