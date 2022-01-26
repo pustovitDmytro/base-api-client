@@ -1,3 +1,14 @@
+## [1.5.6](https://github.com/pustovitDmytro/base-api-client/compare/v1.5.5...v1.5.6) (2022-01-26)
+
+
+### Chore
+
+* fixes some npm audit vulnerabilities (#53) ([cd7f358](https://github.com/pustovitDmytro/base-api-client/commit/cd7f358dd4df0fbd28be7fe3f43a1ec12ea0a004)), closes [#53](https://github.com/pustovitDmytro/base-api-client/issues/53)
+
+### Upgrade
+
+* Update dependency axios to v0.25.0 ([749f044](https://github.com/pustovitDmytro/base-api-client/commit/749f044c710fb03ddb19543025175fba3ef8edfa))
+
 ## [1.5.5](https://github.com/pustovitDmytro/base-api-client/compare/v1.5.4...v1.5.5) (2022-01-22)
 
 
