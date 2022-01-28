@@ -1,3 +1,14 @@
+## [1.5.7](https://github.com/pustovitDmytro/base-api-client/compare/v1.5.6...v1.5.7) (2022-01-28)
+
+
+### Chore
+
+* fixes lint ([2f2f147](https://github.com/pustovitDmytro/base-api-client/commit/2f2f147d92d80a5a56500b71e484098cbc19f837))
+
+### Docs
+
+* update deps badge ([a061c16](https://github.com/pustovitDmytro/base-api-client/commit/a061c16c02e1ce9cb2a73e8d6276e8007ae7b8be))
+
 ## [1.5.6](https://github.com/pustovitDmytro/base-api-client/compare/v1.5.5...v1.5.6) (2022-01-26)
 
 
