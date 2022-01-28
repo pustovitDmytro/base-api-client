@@ -189,7 +189,7 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 [npm]: https://www.npmjs.com/package/base-api-client
 [github]: https://github.com/pustovitDmytro/base-api-client
 [coveralls]: https://coveralls.io/github/pustovitDmytro/base-api-client?branch=master
-[badge-deps]: https://img.shields.io/david/pustovitDmytro/base-api-client.svg
+[badge-deps]: https://img.shields.io/librariesio/release/npm/base-api-client.svg
 [badge-vuln]: https://img.shields.io/snyk/vulnerabilities/npm/base-api-client.svg?style=popout
 [badge-vers]: https://img.shields.io/npm/v/base-api-client.svg
 [badge-lic]: https://img.shields.io/github/license/pustovitDmytro/base-api-client.svg
