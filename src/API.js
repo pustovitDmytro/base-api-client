@@ -2,9 +2,9 @@
 import axios from 'axios';
 import ms from 'ms';
 import { v4 as uuid } from 'uuid';
+import { cleanUndefined } from 'myrmidon';
 import { resolveUrl } from './utils';
 import API_ERROR from './Error';
-import {cleanUndefined} from 'myrmidon';
 
 const defaultMock = () => ({ data: 1 });
 
@@ -63,10 +63,10 @@ export default class API {
 
         const optional = {
             timeout : this.timeout,
-            data    : data,
-            params  : params,
+            data,
+            params,
             auth    : this.auth
-        }
+        };
 
         const axiosOptions = {
             method,
