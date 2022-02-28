@@ -21,6 +21,14 @@ Base API client backed by [axios](https://www.npmjs.com/package/axios).
 [![FOSSA][fossa-badge]][fossa-url]
 [![License][badge-lic]][github]
 
+# 🇺🇦 Help Ukraine
+I woke up on my 26th birthday at 5 am from the blows of russian missiles. They attacked the city of Kyiv, where I live, as well as the cities in which my family and friends live. Now my country is a war zone. 
+
+We fight for democratic values, for freedom, for our future! 
+I am stopping any support of my packages by the time until all russians leave my country on trucks or in boxes. 
+
+💛💙 Help Ukraine! We need your support! There are dozen ways to help us, just do it!
+
 ## Table of Contents
   - [Requirements](#requirements)
   - [Installation](#installation)
@@ -103,9 +111,9 @@ use `auth` setting, if you want to use basic auth for each request.
 
 ```javascript
 this.auth = {
-    username: '',
-    password: ''
-}
+    username : '',
+    password : ''
+};
 ```
 
 **Data processing**
@@ -130,25 +138,27 @@ Next methods can be used for default data pre/post-processing:
 the package exposes `API_ERROR`, that can be used outside:
 
 ```javascript
-    import BaseAPI, { API_ERROR } from 'base-api-client'
-    
-    class API extends BaseAPI {
-        constructor(){
-            super(`http://wiwbif.is/fugo`);
-        }
+import BaseAPI, { API_ERROR } from 'base-api-client';
 
-        async createUser(email){
-            try {
-                const user = await this.post('/users', { email });
-                return user.id;
-            } catch (error){
-                if(error instanceof API_ERROR){
-                    console.log('raw http error: ', error.payload);
-                    throw error;
-                }
+class API extends BaseAPI {
+    constructor() {
+        super('http://wiwbif.is/fugo');
+    }
+
+    async createUser(email) {
+        try {
+            const user = await this.post('/users', { email });
+
+
+            return user.id;
+        } catch (error) {
+            if (error instanceof API_ERROR) {
+                console.log('raw http error:', error.payload);
+                throw error;
             }
         }
     }
+}
 ```
 
 **Logging and Tracing**
