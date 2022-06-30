@@ -1,3 +1,21 @@
+## [1.5.9](https://github.com/pustovitDmytro/base-api-client/compare/v1.5.8...v1.5.9) (2022-06-30)
+
+
+### Chore
+
+* fixes some npm audit vulnerabilities (#57) ([caddd80](https://github.com/pustovitDmytro/base-api-client/commit/caddd807dc3b744f95c67b2ed526a49ebe047cf8)), closes [#57](https://github.com/pustovitDmytro/base-api-client/issues/57)
+* Lock file maintenance (#59) ([c0e1c10](https://github.com/pustovitDmytro/base-api-client/commit/c0e1c10b5f07641c65eac742c6a915b9f63f6e25)), closes [#59](https://github.com/pustovitDmytro/base-api-client/issues/59)
+* Update devDependencies (non-major) (#40) ([bf93baa](https://github.com/pustovitDmytro/base-api-client/commit/bf93baab9b39a3d84aef1e17ef15991ba4c20b55)), closes [#40](https://github.com/pustovitDmytro/base-api-client/issues/40)
+* Update devDependencies (non-major) (#41) ([dd60b5d](https://github.com/pustovitDmytro/base-api-client/commit/dd60b5d5088ee27a1ed9de44a17a6d922a5a0467)), closes [#41](https://github.com/pustovitDmytro/base-api-client/issues/41)
+
+### Docs
+
+* help Ukraine 🇺🇦 ([3779c65](https://github.com/pustovitDmytro/base-api-client/commit/3779c6590caeb9f0cbb41ef4384b5fe8dec723b2))
+
+### Fix
+
+* allow use URL in browsers ([3c50963](https://github.com/pustovitDmytro/base-api-client/commit/3c509634ad4605b512f3b9d8822ec279c7dc3b36))
+
 ## [1.5.8](https://github.com/pustovitDmytro/base-api-client/compare/v1.5.7...v1.5.8) (2022-01-28)
 
 
